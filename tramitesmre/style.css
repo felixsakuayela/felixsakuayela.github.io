@@ -1,0 +1,1938 @@
+/* color */
+/* color */
+/* type */
+
+/* Cambio general de fuente Arial -> Lato */
+.ui-widget {
+	/* font-family: "Lato",sans-serif; */
+	font-weight: 400;
+}
+
+.text-font,
+.ui-chkbox-label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #535353;
+}
+
+input.ui-state-disabled[type="text"][disabled],
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input.disabled[type="radio"],
+input.disabled[type="checkbox"],
+div.ui-chkbox div.ui-chkbox-box.ui-state-disabled span.ui-icon-check {
+	cursor: not-allowed !important;
+}
+
+/* borders */
+.border {
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+}
+.border-bottom,
+.border-bottom-required {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 1rem;
+}
+.border-bottom-required {
+  padding-bottom: 2.6rem;
+}
+/* field */
+.field {
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+  font-size: 1.2rem;
+  padding: .6rem .8rem;
+}
+/* line */
+.line {
+  border-bottom: 1px solid #bfbfbf;
+}
+.center {
+  margin: 0 auto;
+}
+.inline {
+  display: inline-block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #535353;
+}
+p {
+  font-size: 1.16rem;
+  text-align: justify;
+}
+a,
+.ui-widget-content a {
+  color: #594fc4;
+}
+a:hover {
+  color: #26ade4;
+  opacity: .75;
+}
+:focus {
+  outline: none;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+img {
+  height: auto;
+  /* ie as always:( */
+}
+div#recaptcha_widget_div a img {
+  height: auto;
+}
+legend {
+  font-size: 1.56rem;
+  margin: .8rem 0 1.2rem 0;
+}
+label,
+.radio-label {
+  display: inline-block;
+  font-size: 1.08rem;
+  margin-top: .6rem;
+}
+select,
+.ui-widget-content select,
+.ui-widget-content select.ui-state-hover,
+input,
+input.ui-inputfield,
+.ui-widget-content input.ui-inputfield {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #535353;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+  font-size: 1.2rem;
+  padding: .6rem .8rem;
+  display: inline-block;
+  width: 100%;
+  margin: .6rem 2rem .6rem 0;
+  box-shadow: 0px 0px #FFFFFF;
+}
+div.ui-fileupload.ui-widget {
+  margin-top: .6rem;
+}
+select::-ms-expand {
+    display: none;
+}
+input[disabled="disabled"],
+.ui-widget-content input[disabled="disabled"],
+select[disabled="disabled"] {
+  opacity: 0.5;
+}
+.inputMayusculas {
+	text-transform: uppercase;
+}
+
+select:focus,
+input:focus,
+input.ui-inputfield:focus,
+.ui-widget-content input.ui-inputfield:focus {
+  background: #fafafa;
+  border: 1px solid #26ade4;
+  box-shadow: 0px 0px #FFFFFF;
+}  
+.ui-widget-content select.ui-state-hover:focus {
+  border: 1px solid #26ade4;
+}
+select
+.ui-widget-content select,
+.ui-widget-content select.ui-state-hover {
+  background: #ffffff;
+  background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/icons/dropdown-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 96% 1.1rem;
+}
+select:focus {
+  background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/icons/dropdown-icon.svg);
+  background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/icons/dropdown-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 96% 1.1rem;
+}
+input {
+  width: 100%;
+}
+input[type='file'] {	/*Soluci�n bug muy extra�o de Firefox con los p:fileUpload*/
+  width: auto;
+  color: transparent;
+}
+
+/*
+ * Ajustes para p�neles =>
+ */
+fieldset,
+div[class^="ui-panel ui-widget ui-widget-content ui-corner-all"] {
+  overflow: hidden;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #BFBFBF;
+}
+div[class^="ui-panel ui-widget ui-widget-content ui-corner-all"] {
+  background: none;
+  font-family: "Lato",sans-serif;
+  font-weight: 400;
+  color: #535353;
+  border-radius: 0px;
+}
+div[class^="ui-dialog ui-widget ui-widget-content ui-corner-all"] {
+  font-family: "Lato",sans-serif;
+  font-weight: 400;
+  color: #535353;
+  background-color: white;
+}
+div[class^="ui-panel ui-widget ui-widget-content ui-corner-all"] div[class^="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"] {
+  font-size: 1.56rem;
+  margin: 0.8rem 0px 1.2rem;
+  padding: 0px;
+  border: 0px none;
+  background: none;
+  text-align: left;
+  font-weight: inherit;
+  color: inherit;
+}
+div[class^="ui-panel ui-widget ui-widget-content ui-corner-all"] div[class^="ui-panel-content ui-widget-content"] {
+  padding: 0px;
+}
+
+
+/*
+ * Ajustes para tablas =>
+ */
+.form-table,
+table[role="grid"] {
+  width: 100%;
+  margin-top: 0.6rem;
+}
+.form-table .table-header,
+table[role="grid"]>thead>tr {
+  background: #fafafa;
+  border-bottom: 1px solid #bfbfbf;
+}
+table[role="grid"]>thead>tr>th.ui-state-default,
+div.ui-chkbox div.ui-chkbox-box {
+  background-image: none;
+  word-wrap: break-word; 
+  overflow: hidden;
+}
+.form-table td, .form-table th,
+table[role="grid"]>thead>tr>th.ui-state-default,
+table[role="grid"]>tbody>tr>td {
+  text-align: left;
+  font-family: "Lato",sans-serif;
+  font-weight: 400;
+  color: #535353;
+  font-size: 1.2rem;
+  vertical-align: top;
+  padding: 0.8rem 0.6rem 0.9rem 0.9rem;
+  word-wrap: break-word; 
+  overflow: hidden;
+}
+table[role="grid"]>thead>tr>th.ui-state-default {
+  font-weight: bold;
+  border-top-width: 0rem;
+}
+table[role="grid"]>tbody,
+table[role="grid"]>tbody>tr {
+  background-color: transparent;
+}
+.form-table tr:hover,
+table[role="grid"] tr:hover {
+	background: #F5F5F5 none repeat scroll 0% 0%;
+}
+
+/*
+ * Ajustes para inputs =>
+ */
+.ui-chkbox div.ui-chkbox-box {
+	vertical-align: bottom;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: .4rem;
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+}
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/icons/check-icon.svg);
+  background-size: 1rem 1rem;
+  background-position: .2rem .2rem;
+  background-repeat: no-repeat;
+  border: 1px solid #bfbfbf;
+}
+div[class^="ui-chkbox-box ui-widget ui-corner-all ui-state-default"].ui-chkbox-box {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: .4rem;
+}
+input[type="radio"] {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+input[type="radio"]:checked {
+  background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/icons/radio-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 4rem 4rem;
+  background-position: 48% 50%;
+}
+td.col input[type="radio"] {
+  margin-bottom: 2.2rem;
+}
+div.ui-chkbox-box.ui-state-active span.ui-chkbox-icon,
+div.ui-chkbox-box.ui-state-focus span.ui-chkbox-icon.ui-icon-check {
+	background-image: url("https://tramitesmre.cancilleria.gov.co/tramites/resources/icons/check-icon.svg");
+	background-size: 0.7rem 0.7rem;
+	background-position: 0.3rem 0.3rem;
+	background-repeat: no-repeat;
+}
+div.ui-chkbox-box:hover {
+  border-color: #BFBFBF;
+}
+input[type="radio"]+label {
+  margin: 0.6rem 0.6rem 0px 0.2rem;
+  vertical-align: top;
+}
+input[type="radio"] {
+	margin-right: 0rem;
+}
+input[type="radio"] {
+	margin-left: 0rem;
+}
+.accept-checkbox {
+  float: left;
+}
+.radio-container {
+  margin: -0.4rem 0 0 0.6rem;
+}
+.radio-container label {
+  vertical-align: top;
+  margin-right: .6rem;
+}
+.radio-container input[type="radio"] {
+  position: relative;
+  top: .2rem;
+  margin-right: 1.2rem;
+}
+.check-accept,
+.check-link,
+.ui-widget div[class^="ui-chkbox ui-widget"],
+.ui-widget a {
+  display: inline-block;
+  font-size: 1.08rem;
+  margin: .6rem 0 0 .6rem;
+}
+div.ui-chkbox div.ui-chkbox-box {
+  margin-right: 0.5rem;
+}
+div.ui-chkbox span.ui-chkbox-label {
+	display: inline;
+  margin-left: 0rem;
+}
+div.ui-chkbox span.ui-chkbox-label:after {
+	content: ' *';
+}
+.ui-widget div[class^="ui-chkbox ui-widget"] {
+  margin-left: 0;
+}
+.ui-widget div[class^="ui-chkbox ui-widget"] div.ui-chkbox-box {
+  box-shadow: none;
+  margin-right: .4rem !important;
+}
+.check-link {
+  margin-left: .3rem;
+  margin-top: .16rem;
+}
+button[type="submit"],
+button[type="submit"][class^="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left"],
+button[type="submit"][class^="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"],
+button[type="submit"][class^="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"],
+button[type="button"].ui-wizard-nav-next,
+button[type="button"].ui-wizard-nav-back,
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-button,
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td button.ui-fileupload-cancel,
+.button {
+  -webkit-appearance: none;
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+  border: none;
+  font-size: 1.1rem;
+  color: #ffffff;
+  background: #594fc4;
+  padding: .8rem 1.2rem;
+  text-shadow: none;
+  font-family: "Lato",sans-serif;
+  font-weight: 400;
+}
+td[role="gridcell"] button[type="submit"][class^="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"] {
+  font-size: 0.9rem;
+  background-color: transparent;
+  color: #594FC4;
+  margin: 0.5rem;
+  padding: 0rem;
+  height: 1rem;
+  width: 1rem;
+}
+td[role="gridcell"] button[type="submit"][class^="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"]:hover,
+td[role="gridcell"] button.ui-button-icon-only.ui-state-focus[type="submit"] {
+  color: #26ADE4;
+  box-shadow: none;
+}
+td[role="gridcell"] button[type="submit"] > span.ui-icon {
+  font-size: 0.9rem;
+  margin-top: -2px;
+}
+
+
+/*Ajustes para p:fileUpload*/
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar {
+	border: 1px solid rgb(197, 197, 197);
+	background: rgb(249, 249, 249) none repeat scroll 0% 0%;
+  min-height: 2.6rem;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-button {
+  padding: 0.3rem;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content {
+	background-color: white;
+  min-height: 4rem;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files {
+  margin: 0;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td.ui-fileupload-progress div.ui-progressbar {
+  width: 10rem;
+  border: medium none;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td.ui-fileupload-progress div.ui-progressbar-value {
+  background: transparent url("/tramites/resources/images/ajax_loading.gif?pfdrid_c=true") repeat scroll 0% 0%;
+}
+
+/* Clase que permite mostrar los botones que acompa�an campos de entrada, de un tama�o mas acorde */
+button[type="submit"].inputFieldSibling,
+button[type="button"].ui-wizard-nav-back,
+button[type="button"].ui-wizard-nav-next {
+	margin-top: 0.7rem;
+	padding: 0.65rem 1.2rem;
+}
+
+/* Clase que permite que los botones con solo �cono sean cuadrados */
+button[type="submit"][class^="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"] {
+	height: 2.4rem;
+}
+
+td button[type="submit"][class^="ui-button ui-widget ui-state-default ui-corner-all"] {
+	margin: 0.6rem 0.2rem 1rem 0rem;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td button.ui-fileupload-cancel {
+  margin-left: -0.5rem;
+  margin-top: 0.5rem;
+	height: 1.8rem;
+	width: 0.1rem;
+}
+
+td div[class="ui-messages-info-reg ui-corner-all ui-messages ui-widget"] {
+	margin: 0.6rem 0rem 1rem 0rem;
+	padding: 0.5rem 2rem;
+}
+
+td div[class="ui-message-info-reg ui-corner-all ui-message ui-widget"] {
+	margin: 0.6rem 0rem 1rem 0rem;
+	padding: 0.5rem 2rem;
+}
+
+button[type="submit"]:hover,
+button.gray[type="submit"]:hover,
+button.red[type="submit"]:hover,
+button.green[type="submit"]:hover,
+button.blue[type="submit"]:hover,
+button[type="button"].ui-wizard-nav-back:hover,
+button[type="button"].ui-wizard-nav-next:hover,
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-button:hover,
+.button:hover {
+  background: #26ade4;
+}
+button.ui-state-disabled[type="submit"]:hover,
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-state-disabled.ui-button:hover {
+  background: #594FC4;
+}
+button.green.ui-state-disabled[type="submit"]:hover {
+  background: #7ed321;
+}
+button.red.ui-state-disabled[type="submit"]:hover {
+  background: #e15a59;
+}
+button.blue.ui-state-disabled[type="submit"]:hover {
+  background: #26ade4;
+}
+button.gray.ui-state-disabled[type="submit"]:hover {
+  background: #C2C2C2;
+}
+
+.ui-button-text-only .ui-button-text  {
+	padding: 0rem 0rem;
+}
+
+.ui-button-text-icon-right .ui-button-text  {
+	padding: 0rem 1.7rem 0rem 0rem;
+}
+.ui-button-text-icon-left .ui-button-text  {
+	padding: 0rem 0rem 0rem 1.8rem;
+}
+
+.big-button {
+  padding: .89rem 1.2rem;
+}
+.gray,
+button.gray[type="submit"] {
+  background: #C2C2C2;
+}
+.red,
+button.red[type="submit"] {
+  background: #e15a59;
+}
+.blue,
+button.blue[type="submit"] {
+  background: #26ade4;
+}
+.green,
+button.green[type="submit"] {
+  background: #7ed321;
+}
+.button-margin-right {
+  margin-right: .8rem;
+}
+.button:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.next,
+.prev,
+.save {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.next {
+  margin: .2rem 0 0 1rem;
+}
+.prev,
+.save {
+  margin: .2rem 1rem 0 0;
+}
+#user-city {
+  width: 82%;
+}
+.search-button {
+  display: inline-block;
+  color: #535353;
+  font-size: 1.8rem;
+  position: relative;
+  top: 3.2rem;
+  left: 10rem;
+}
+.search-button:hover {
+  color: #594fc4;
+  text-decoration: none;
+  opacity: 100;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: #ffffff !important;
+}
+.top-message-box {
+  background: #594fc4;
+  padding: .8rem;
+  margin: 0;
+}
+.top-message-box p {
+  color: #ffffff;
+  font-size: .88rem;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  width: 94%;
+}
+.top-message-box a {
+  color: #ffffff;
+  margin-top: .2rem;
+  margin-right: -0.8rem;
+  font-size: 1.1rem;
+  opacity: 100;
+}
+.top-message-box a:hover {
+  text-decoration:underline;
+  color: #26ade4;
+  opacity: .75;
+}
+.top-message-box a:focus {
+  color: #ffffff;
+}
+.top-message-box a:visited{
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 0.3em;
+}
+.top-message-box a:active{
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 0.3em;
+}
+
+.uk-alert {
+  margin-bottom: 0;
+}
+.close-box {
+  display: inline-block;
+  float: right;
+}
+.message-box,
+div[class^="ui-messages-"] {
+  background: #f4f4f4;
+  padding: 1rem 2rem;
+  border-radius: .6rem;
+  margin: 0.1rem 0rem;
+}
+.message-box p {
+  font-size: 1.2rem;
+  margin: 0;
+  display: inline-block;
+  float: right;
+  width: 90%;
+}
+
+.ui-messages-warn, .ui-message-warn, .ui-messages-info, .ui-message-info,
+.ui-messages-error, .ui-messages-fatal {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.02rem;
+  color: #535353;
+}
+.ui-messages-info, .ui-messages-warn, .ui-messages-error, .ui-messages-fatal, .ui-message-info {
+    border: 0px solid;
+}
+
+.ui-messages-info-summary, .ui-messages-warn-summary, .ui-messages-error-summary, .ui-messages-fatal-summary,
+.ui-message-info-summary, .ui-message-warn-summary, .ui-message-error-summary, .ui-message-fatal-summary {
+    font-weight: 400;
+    margin-left: 0px;
+}
+
+.ui-messages ul {
+  min-height: 3rem;
+}
+.ui-messages ul {
+  margin-left: 10%;
+}
+div.ui-dialog[role="dialog"] .ui-messages ul {
+  margin-left: 7%;
+}
+.ui-messages ul li {
+	margin-bottom: 0.4rem;
+}
+
+
+.message-box > .icon-info,
+.message-box > .icon-error,
+.message-box > .icon-tips,
+div[class^="ui-messages-"] > span[class^="ui-messages-"][class$="-icon"] {
+  color: #26ade4;
+  font-size: 2.4rem;
+  margin-left: -1.2rem;
+}
+.ui-messages-info-icon, .ui-messages-warn-icon, .ui-messages-error-icon, .ui-messages-fatal-icon, .ui-message-info-icon {
+	margin-top: 0px;
+}
+.message-box > .icon-error,
+div[class^="ui-messages-"] > span[class^="ui-messages-"][class$="error-icon"] {
+  color: #e15a59;
+}
+div[class^="ui-messages-"] > span[class^="ui-messages-"][class$="warn-icon"] {
+  color: #efd12b;
+}
+div[class^="ui-messages-"] > span[class^="ui-messages-"][class$="fatal-icon"] {
+  color: #ff0200;
+}
+.message-box > .icon-ok {
+  color: #7ed321;
+}
+.message-form,
+div[class^="ui-messages-"] {
+  margin: 1.6rem 0;
+}
+.required-fields {
+  font-size: 1.02rem;
+}
+.note,
+span.paragraphNote {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+div.paragraphNote div.ui-message {
+	background-color: transparent;
+	border-color: transparent;
+  color: #535353;
+}
+div.paragraphNote span[class^="ui-message-"][class$="-detail"] {
+  font-size: 0.88rem;
+  font-weight: 400;
+}
+
+.first-level-nav {
+  margin: 0;
+  padding: 1.2rem 1rem;
+}
+.first-level-nav ul {
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+.first-level-nav li,
+footer li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.first-level-nav li a:hover,
+footer li a:hover {
+  /*opacity: 100;
+		position: relative;
+		top: .1rem;*/
+
+  /* bug on background images */
+
+}
+.c-logo-nav {
+  max-width: 14rem;
+}
+.c-logo-small-nav-bk {
+  display: block;
+  width: 225px;
+  height: auto;
+  background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/images/cancilleria-logo.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.c-logo-small-nav-bk span,
+.c-logo-small-nav-bk span:hover {
+  display: none;
+}
+.s-logo-nav {
+  max-width: 6.6rem;
+  margin: .5rem 0 0 1.2rem;
+}
+.s-logo-small-nav-bk {
+  display: block;
+  width: 6.6rem;
+  height: 1.98rem;
+  background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/images/sitac-rs.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.s-logo-small-nav-bk span,
+.s-logo-small-nav-bk span:hover {
+  display: none;
+}
+.s-logo-nav-desk,
+.s-logo-small-nav {
+  display: none !important;
+}
+.content-container {
+  margin: 0 1rem;
+}
+h1 {
+  font-size: 1.8rem;
+  margin: 2rem 0;
+}
+header > .required-fields {
+  margin-top: -4.4rem;
+}
+.breadcrumb {
+  display: none;
+}
+.g-recaptcha {
+  margin: 2rem 0;
+}
+.calendar {
+  width: 100%;
+}
+.calendar span {
+  position: relative;
+  margin-right: .4rem;
+  bottom: 3.4rem;
+  left: 103%;
+  font-size: 2rem;
+}
+.calendar-icon-button {
+  color: #535353;
+}
+.calendar-icon-button:hover {
+  color: #26ade4;
+  text-decoration: none;
+  opacity: 100;
+}
+.uk-datepicker,
+div#ui-datepicker-div {
+  background: #ffffff;
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+}
+div#ui-datepicker-div {
+  width: auto;
+  padding: 15px;
+  font-size: 1rem;
+}
+.uk-datepicker-heading {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 1rem;
+}
+div#ui-datepicker-div div.ui-datepicker-header {
+  background-image: none;
+  background-color: white;
+  border: medium none transparent;
+}
+div#ui-datepicker-div div.ui-datepicker-header a {
+  margin: 0px;
+  background-image: none;
+  box-shadow: 0px 0px #FFF;
+  border-style: none;
+  width: 1rem;
+}
+div#ui-datepicker-div div.ui-datepicker-header a.ui-datepicker-prev {
+  left: 2px;
+  top: 2px;
+}
+div#ui-datepicker-div div.ui-datepicker-header a.ui-datepicker-next {
+  right: 2px;
+  top: 2px;
+}
+div#ui-datepicker-div div.ui-datepicker-header a > span.ui-icon {
+  color: #535353;
+  background-image: none;
+  font-size: 0px;
+  text-indent: 0px;
+}
+div#ui-datepicker-div div.ui-datepicker-header a > span.ui-icon-circle-triangle-w:before {
+  content: "\e608";
+  font-size: 1rem;
+}
+div#ui-datepicker-div div.ui-datepicker-header a > span.ui-icon-circle-triangle-e {
+  margin-left: 0px;
+}
+div#ui-datepicker-div div.ui-datepicker-header a > span.ui-icon-circle-triangle-e:before {
+  content: "\e606";
+  font-size: 1rem;
+}
+div#ui-datepicker-div div.ui-datepicker-header:after {
+  border-bottom: 1px solid #bfbfbf;
+  visibility: visible;
+  margin: 1rem 0rem;
+  color: transparent;
+}
+div#ui-datepicker-div div.ui-datepicker-title {
+  margin: 0px;
+}
+div#ui-datepicker-div div.ui-datepicker-title select {
+  padding: 0px;
+  border-style: none;
+  width: auto;
+  background: none;
+}
+div#ui-datepicker-div div.ui-datepicker-title select:hover,
+div#ui-datepicker-div div.ui-datepicker-header a:not(.ui-state-disabled) > span.ui-icon:hover {
+  color: #26ADE4;
+}
+div#ui-datepicker-div div.ui-datepicker-title select option {
+	color: #535353;
+}
+div#ui-datepicker-div div.ui-datepicker-title select.ui-datepicker-month {
+  text-align: right;
+  text-align-last: right;
+}
+div#ui-datepicker-div table {
+  width: auto;
+}
+div#ui-datepicker-div table.ui-datepicker-calendar th {
+	padding: 0px 0px 0.4em;
+}
+/* Copiado de datepicker.almost-flat.css */
+.uk-datepicker-table a,
+div#ui-datepicker-div table.ui-datepicker-calendar a,
+div#ui-datepicker-div table.ui-datepicker-calendar td.ui-datepicker-unselectable span {
+	display: block;
+	width: 26px;
+	line-height: 24px;
+	text-align: center;
+	color: #444;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.uk-datepicker-table a,
+div#ui-datepicker-div table.ui-datepicker-calendar a,
+div#ui-datepicker-div table.ui-datepicker-calendar td.ui-datepicker-unselectable span {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+div#ui-datepicker-div table.ui-datepicker-calendar a,
+div#ui-datepicker-div table.ui-datepicker-calendar td.ui-datepicker-unselectable span {
+  margin: 0px;
+  padding: 0px;
+  background-image: none;
+  font-weight: normal;
+  font-size: 1rem;
+}
+div#ui-datepicker-div td.ui-datepicker-today a.ui-state-highlight {
+	background-color: transparent;
+  text-shadow: none;
+}
+.uk-datepicker-table a:hover,
+div#ui-datepicker-div table.ui-datepicker-calendar a:hover {
+  background: #ececec;
+  border: 1px solid #ececec;
+}
+div#ui-datepicker-div table.ui-datepicker-calendar a:hover {
+  box-shadow: 0px 0px #FFFFFF;
+}
+div#ui-datepicker-div table.ui-datepicker-calendar a.ui-state-active {
+	background-color: #EEE;
+	color: #444 !important;;
+}
+.uk-datepicker-table a.uk-active {
+  background: #ececec;
+  color: #535353;
+}
+.uk-datepicker-previous,
+.uk-datepicker-next {
+  color: #535353 !important;
+}
+.uk-datepicker-previous:hover,
+.uk-datepicker-next:hover {
+  color: #26ade4 !important;
+  opacity: 100 !important;
+}
+.uk-datepicker-previous::after,
+.uk-datepicker-next::after,
+.uk-modal-close:after {
+  font-family: 'icomoon';
+}
+.uk-datepicker-next::after {
+  content: "\e606";
+}
+.autocomplete-suggestions {
+  background: #ffffff;
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+  padding: 0;
+  overflow: hidden;
+}
+div.ui-autocomplete-panel ul.ui-autocomplete-items {
+  padding: 0;
+}
+.autocomplete-suggestion,
+div.ui-autocomplete-panel ul.ui-autocomplete-items li.ui-autocomplete-item {
+  margin: 0;
+  cursor: pointer;
+  padding: 1rem;
+}
+.autocomplete-suggestion:hover,
+div.ui-autocomplete-panel ul.ui-autocomplete-items li.ui-autocomplete-item.ui-state-highlight {
+  background: #ececec;
+}
+
+/* Ajuste del control generado por p:autocomplete */
+input.ui-inputfield[class^="ui-autocomplete-input"] {
+  width: 95%;
+  margin-right: 0px;
+}
+button.ui-autocomplete-dropdown[class^="ui-autocomplete-dropdown"] {
+	height: 71%;
+	margin: 0.6rem 0rem 1rem 0px;
+}
+div.ui-autocomplete-panel {
+  background: #FFF none repeat scroll 0% 0%;
+  box-shadow: none;
+}
+div.ui-autocomplete-panel ul.ui-autocomplete-items {
+  background: #FFF none repeat scroll 0% 0%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+div.ui-autocomplete-panel ul.ui-autocomplete-items span.ui-autocomplete-query {
+  font-size: 1rem;
+}
+td.colButtonsAutocompleteNew {
+  vertical-align: top;
+  width: 5%;
+}
+
+/* Ajuste de los pasos del p:wizard */
+div.ui-wizard ul.ui-wizard-step-titles {
+  margin: 2.4rem 0 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+div.ui-wizard ul.ui-wizard-step-titles li {
+	margin-right: 1.2rem;
+	padding: 0 0 0.5rem 0;
+	background-image: none;
+  background-color: transparent;
+	border: 0px none;
+	border-radius: 0px;
+  color: #535353;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+div.ui-wizard ul.ui-wizard-step-titles li.ui-state-highlight {
+	color: #594fc4;
+	border-bottom: 3px solid #594fc4;
+}
+
+.icon-dropdown {
+  display: inline-block;
+  font-size: .6rem;
+  float: right;
+  margin-right: 1rem;
+  position: relative;
+  top: 4.1rem;
+}
+
+.ui-message-error, .ui-message-warn, .ui-message-fatal {
+  display: block;
+  background: #e15a59;
+  color: #ffffff;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  margin: .3rem 0 1.2rem 0;
+  font-weight: 100;
+}
+
+.ui-message-info {
+  display: block;
+  background: #f4f4f4 none repeat scroll 0 0;
+  color: #535353;
+  border-radius: 0.6rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  margin: .3rem 0 1.2rem 0;
+  font-weight: 100;
+}
+
+div[class="ui-message ui-message-error ui-widget ui-corner-all"],
+.ui-widget div[class="ui-message ui-message-error ui-widget ui-corner-all"] {
+	font-family: "Lato",sans-serif;
+	font-size: 1.18rem;
+}
+
+td div[class="ui-messages-info-reg ui-corner-all ui-messages ui-widget"] {
+	font-family: "Lato",sans-serif;
+	text-align: center;
+}
+
+td div[class="ui-message-info-reg ui-corner-all ui-message ui-widget"] {
+	font-family: "Lato",sans-serif;
+	text-align: center;
+}
+
+.ui-message-warn-icon, .ui-message-error-icon, .ui-message-fatal-icon {
+	display: none;
+}
+
+#document-type-error:before,
+#document-number-error:before,
+#autocomplete-error:before,
+#document-place-error:before,
+#document-date-error:before,
+#agree-error:before,
+#doubleNationality-error:before,
+#user-name-error:before,
+#user-first-lastname-error:before,
+#user-second-lastname-error:before,
+#user-sex-error:before,
+#user-marital-status-error:before,
+#user-ethnicity-error:before,
+#user-birthday-error:before,
+#autocompleteTwo-error:before,
+#user-city-error:before,
+#user-city-r-error:before,
+#user-address-error:before,
+#question-error:before,
+#answer-error:before {
+  display: inline-block;
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  background: #e15a59;
+  position: relative;
+  bottom: 1.4rem;
+  left: 1rem;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+
+  transform: rotate(45deg);
+}
+#agree-error {
+  margin-top: 1.2rem;
+  width: 32.53333333333333%;
+}
+#agree-error:before {
+  left: 1rem;
+}
+footer {
+  background: #ffffff;
+  margin-top: 3em;
+  padding: 2em 1em;
+  text-align: center;
+}
+.legal {
+  margin-top: 2rem;
+  font-size: .86rem;
+  text-align: center;
+}
+.c-logo-footer {
+  width: 19rem;
+  height: 3.8rem;
+  display: block;
+  margin: 1rem auto 3rem auto;
+}
+.uk-modal-dialog {
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  border: 1px solid #bfbfbf;
+  border: none;
+  padding: 4rem 3rem;
+}
+div.ui-dialog.verticalLong {
+  position: absolute;
+  margin: 50px auto;
+  box-shadow: none;
+  border: 1px solid #bfbfbf;
+}
+div.ui-dialog div.ui-widget-content {
+  padding: 1rem;
+}
+.uk-modal-dialog h1,
+div.ui-dialog h1 {
+  line-height: 2.4rem;
+}
+.uk-modal-dialog h2,
+div.ui-dialog h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+.uk-modal-close:after,
+a.ui-dialog-titlebar-close > span.ui-icon-closethick:before {
+  content: "\e602";
+}
+.uk-modal-close {
+  position: relative;
+  bottom: 3em;
+}
+.uk-modal-close::before {
+  content: "Cerrar";
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #535353;
+  position: relative;
+  top: 1.36rem;
+  left: -3.16rem;
+  font-size: 0.86rem;
+}
+div.ui-dialog div.ui-dialog-titlebar  {
+	background-image: none;
+	color: #999;
+	font-weight: normal;
+	background-color: transparent;
+	font-size: 1.02rem;
+}
+.uk-datepicker-previous::after {
+  content: "\e608";
+}
+.uk-modal-dialog > .button {
+  position: initial;
+  display: inline-block;
+  margin-top: 1.6rem;
+}
+.uk-modal-dialog > .button:after,
+.uk-modal-dialog > .button:before {
+  display: none;
+}
+
+td.col.apilable {
+	display: flex;
+}
+td.col.apilable > div {
+	width: 100%;
+}
+div.ui-dialog.dialogMedio {
+	width: 90% !important;
+}
+td.col.apilable span.ui-autocomplete {
+	width: 100%;
+}
+  
+html {
+  font: 400 10.5px/15px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+/*
+ * Steps =>
+ */
+.ui-steps.custom {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.ui-steps.custom .ui-steps-title {
+    margin-left: 0;
+    white-space: normal;
+    display: block;
+}
+.ui-steps.custom .ui-steps-item.ui-state-highlight .ui-steps-title {
+    color: #594fc4;
+}
+.ui-steps.custom li.ui-steps-item {						/* 3 pasos por fila */
+    width: 33%;
+}
+.ui-steps.custom li.ui-steps-item:nth-of-type(n+4) {	/* Aplica para del 4to li en adelante */
+    margin-top: 5.5rem;
+}
+.ui-steps.custom li.ui-steps-item.ui-state-highlight {
+  border-color: white;
+  background-color: white;
+  text-shadow: none !important;
+}
+.ui-steps.custom li.ui-steps-item.ui-state-highlight a,
+.ui-steps.custom li.ui-steps-item a.visited,
+.ui-steps.custom li.ui-steps-item.ui-state-highlight a span.ui-steps-number {
+	background-color: #594FC4;
+	background-image: none;
+	border: 0.1rem solid #594FC4;
+}
+.ui-steps.custom li.ui-steps-item.ui-state-highlight a.success,
+.ui-steps.custom li.ui-steps-item.ui-state-highlight a.success span.ui-steps-number {
+	background-color: #7ed321;
+	background-image: none;
+	border: 0.1rem solid #7ed321;
+}
+.ui-steps.custom li.ui-steps-item.ui-state-highlight a.fail,
+.ui-steps.custom li.ui-steps-item.ui-state-highlight a.fail span.ui-steps-number {
+	background-color: #e15a59;
+	background-image: none;
+	border: 0.1rem solid #e15a59;
+}
+.ui-steps.custom .ui-steps-item .ui-menuitem-link {
+    height: 0.4rem;
+    padding: 0 1em;
+    margin: 0;
+}
+.ui-steps.custom .ui-steps-item .ui-steps-number {
+    background-color: #594FC4;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 2.5rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+    margin-top: -1rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+
+@media (min-width: 480px) {
+  /* message boxes */
+  .message-box > .icon-info,
+  .message-box > .icon-error,
+  .message-box > .icon-ok,
+  .message-box > .icon-tips,
+  div[class^="ui-messages-"] > span[class^="ui-messages-"][class$="-icon"] {
+    font-size: 3rem;
+    margin-left: -0.8rem;
+  }
+}
+@media (min-width: 640px) {
+  
+  html {
+    font: 400 11px/16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  .ui-steps.custom li.ui-steps-item {						/* 6 pasos por fila */
+      width: 16.5%;
+  }
+  .ui-steps.custom li.ui-steps-item:nth-of-type(n+4) {	/* Resetear la regla sin media query */
+      margin-top: 0rem;
+  }
+  .ui-steps.custom li.ui-steps-item:nth-of-type(n+7) {	/* Aplica para del 7mo li en adelante */
+      margin-top: 5.5rem;
+  }
+  
+  /* forms */
+  select,
+  .ui-widget-content select,
+  .ui-widget-content select.ui-state-hover {
+    background-position: 97% 1.1rem;
+  }
+  select:focus,
+  .ui-widget-content select:focus,
+  .ui-widget-content select.ui-state-hover:focus {
+    background-position: 97% 1.1rem;
+  }
+  /* message boxes */
+  .message-box p {
+    width: 92%;
+  }
+  .ui-messages ul {
+    margin-left: 8%;
+  }
+  div.ui-dialog[role="dialog"] .ui-messages ul {
+    margin-left: 9%;
+  }
+  .message-box > .icon-info,
+  .message-box > .icon-error,
+  .message-box > .icon-ok,
+  .message-box > .icon-tips,
+  div[class^="ui-messages-"] > span[class^="ui-messages-"][class$="-icon"] {
+    font-size: 3rem;
+    margin-left: -0.6rem;
+  }
+  /* footer */
+  .c-logo-footer {
+    width: 24rem;
+    height: 3.53rem;
+  }
+}
+@media (min-width: 768px) {
+  
+  html {
+    font: 400 11.5px/17px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  /* forms */
+  select,
+  .ui-widget-content select,
+  .ui-widget-content select.ui-state-hover {
+    background-position: 98% 1.1rem;
+  }
+  select:focus,
+  .ui-widget-content select:focus,
+  .ui-widget-content select.ui-state-hover:focus {
+    background-position: 98% 1.1rem;
+  }
+  /* message boxes */
+  .message-box p {
+    width: 92%;
+  }
+  .ui-messages ul {
+    margin-left: 8%;
+  }
+  div.ui-dialog[role="dialog"] .ui-messages ul {
+    margin-left: 11%;
+  }
+  .message-box > .icon-info,
+  .message-box > .icon-error,
+  .message-box > .icon-ok,
+  .message-box > .icon-tips,
+  div[class^="ui-messages-"] > span[class^="ui-messages-"][class$="-icon"] {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+  .top-message-box a {
+    margin-right: 0;
+  }
+  div.ui-dialog.dialogMedio {
+	width: 50% !important;
+  }
+}
+@media (min-width: 1024px) {
+  
+  html {
+    font: 400 12px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  /* Sticky header */
+  #sticky-header {
+    transition: all 0.4s ease;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    box-shadow: 0 -10px 20px 0px #333333;
+    -moz-box-shadow: 0 -10px 20px 0px #333333;
+    -webkit-box-shadow: 0 -10px 20px 0px #333333;
+    top: 0;
+    z-index: 100;
+  }
+  #sticky-header.sticky {
+    height: 4.4rem;
+    overflow: hidden;
+  }
+  .c-logo-nav.invisible,
+  .s-logo-nav-desk.invisible {
+    display: none !important;
+  }
+  .c-logo-small-nav.visible {
+    display: inline-block !important;
+    max-width: 12rem;
+    margin: -0.4rem 1rem 0 0;
+  }
+  .s-logo-small-nav.visible {
+    display: inline-block !important;
+    max-width: 23rem;
+    margin-top: -0.38rem;
+  }
+  .breadcrumb.visible {
+    display: inline-block !important;
+    float: right;
+    text-align: right;
+    margin-top: .3rem;
+    color: #999;
+  }
+  .top-message-box {
+    position: relative;
+    top: 6.4rem;
+  }
+  #after-sticky-message-box {
+    margin-top: 7.4rem;
+  }
+  /* first nav */
+  .first-level-nav ul {
+    float: left;
+  }
+  .c-logo-nav {
+    max-width: 17rem;
+  }
+  .s-logo-nav-desk {
+    display: inline-block !important;
+    max-width: 16rem;
+    margin-left: 1.6rem;
+  }
+  .c-logo-small-nav-bk {
+    display: block;
+    width: 225px;
+    height: auto;
+    background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/images/cancilleria-logo.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+  }
+  .c-logo-small-nav-bk span,
+  .c-logo-small-nav-bk span:hover {
+    display: none;
+  }
+  .s-logo-nav-desk-bk {
+    display: block;
+    width: 16rem;
+    height: 2.18rem;
+    background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/images/sitac-logo.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .s-logo-nav-desk-bk span,
+  .s-logo-nav-desk-bk span:hover {
+    display: none;
+  }
+  .c-logo-small-nav.visible > .c-logo-small-nav-bk {
+    width: 12rem;
+    height: 2.81rem;
+  }
+  .s-logo-small-nav.visible > .s-logo-small-nav-bk {
+    display: block;
+    width: 23rem;
+    height: 1.61rem;
+    background: url(https://tramitesmre.cancilleria.gov.co/tramites/resources/images/sitac-logo-small.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .s-logo-small-nav.visible > .s-logo-small-nav-bk span,
+  .s-logo-small-nav.visible > .s-logo-small-nav-bk span:hover {
+    display: none;
+  }
+  .s-logo-nav {
+    display: none !important;
+  }
+  /* container */
+  .content-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  /* message boxes */
+  .message-box,
+  div[class^="ui-messages-"] {
+    margin-top: 1.2rem;
+  }
+  .message-box p {
+    width: 93%;
+  }
+  .ui-messages ul {
+    margin-left: 7%;
+  }
+  div.ui-dialog[role="dialog"] .ui-messages ul {
+    margin-left: 12%;
+  }
+  /* header */
+  header > .required-fields {
+    float: right;
+    margin-top: -2.8rem;
+  }
+  .border-bottom-required {
+    padding-bottom: 1rem;
+  }
+  h1 {
+    margin-bottom: 0;
+  }
+  /* forms */
+  select,
+  .ui-widget-content select,
+  .ui-widget-content select.ui-state-hover {
+    background-position: 96.6% 1.1rem;
+  }
+  select:focus,
+  .ui-widget-content select:focus,
+  .ui-widget-content select.ui-state-hover:focus {
+    background-position: 96.6% 1.1rem;
+  }
+  /* cols */
+  .col,
+  td.col.apilable {
+    display: inline-block;
+    width: 32.5%;
+    vertical-align: top;
+  }
+  .col.x2,
+  td.col.x2.apilable {
+    width: 65.92%;
+  }
+  .col.x3,
+  td.col.x3.apilable {
+    width: 99.34%;
+  }
+  @-moz-document url-prefix() {
+	  .col.x2,
+	  td.col.x2.apilable {
+	    width: 66.1%;
+	  }
+	  .col.x3,
+	  td.col.x3.apilable {
+	    width: 99.8%;
+	  }
+  }
+  .col-one,
+  .col-two {
+    margin-right: 0.92%;
+  }
+  /* recaptcha */
+  .g-recaptcha {
+    margin-bottom: 1rem;
+  }
+  /* modal */
+  .uk-modal-dialog {
+    width: 54rem;
+  }
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content div[class^="ui-messages-"] {
+	margin: 0;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  font-size: 1rem;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content div[class^="ui-messages-"] span.ui-messages-error-icon {
+	margin: 0.5rem 0 0 0;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  font-size: 1.5rem;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('https://tramitesmre.cancilleria.gov.co/tramites/resources/fonts/icomoon.eot?-wb8e3q');
+  src: url('https://tramitesmre.cancilleria.gov.co/tramites/resources/fonts/icomoon.eot?#iefix-wb8e3q') format('embedded-opentype'), url('https://tramitesmre.cancilleria.gov.co/tramites/resources/fonts/icomoon.ttf?-wb8e3q') format('truetype'), url('https://tramitesmre.cancilleria.gov.co/tramites/resources/fonts/icomoon.woff?-wb8e3q') format('woff'), url('https://tramitesmre.cancilleria.gov.co/tramites/resources/fonts/icomoon.svg?-wb8e3q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"],
+[class^="ui-messages-"][class$="-icon"],
+[class^="ui-message-"][class$="-icon"],
+button[type="submit"] > span.ui-icon,
+button[type="button"].ui-wizard-nav-next > span.ui-icon,
+button[type="button"].ui-wizard-nav-back > span.ui-icon,
+button[type="button"].ui-autocomplete-dropdown > span.ui-button-icon-primary,
+div#ui-datepicker-div div.ui-datepicker-header a > span.ui-icon,
+a.ui-dialog-titlebar-close > span.ui-icon-closethick,
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-button span.ui-icon-plusthick,
+div.ui-fileupload.ui-widget div.ui-fileupload-content a.ui-messages-close span.ui-icon-close,
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td button.ui-fileupload-cancel span.ui-icon {
+  /* font-family: 'icomoon'; */
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button[type="submit"] > span.ui-icon,
+button[type="button"].ui-wizard-nav-next > span.ui-icon,
+button[type="button"].ui-wizard-nav-back > span.ui-icon,
+div.ui-dialog a.ui-dialog-titlebar-close > span.ui-icon-closethick,
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-button span.ui-icon-plusthick,
+div.ui-fileupload.ui-widget div.ui-fileupload-content a.ui-messages-close span.ui-icon-close,
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td button.ui-fileupload-cancel span.ui-icon {
+  background-image: none;
+  overflow: visible;
+  text-indent: 0px;
+  font-size: 1.2rem;
+  padding: 0rem 1.6rem 0rem 0.5rem;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-button span.ui-icon-plusthick,
+div.ui-fileupload.ui-widget div.ui-fileupload-content a.ui-messages-close span.ui-icon-close {
+  font-size: 0.9rem;
+  padding: 0.2rem 0rem 0rem 0.2rem;
+}
+div.ui-fileupload.ui-widget div.ui-fileupload-content a.ui-messages-close:hover {
+	text-decoration: none;
+}
+
+div.ui-dialog  a.ui-dialog-titlebar-close > span.ui-icon-closethick {
+	color: #535353;
+	opacity: 0.3;
+	margin: 10px 0px 0px;
+}
+div.ui-dialog a.ui-dialog-titlebar-close.ui-state-hover {
+	border: none;
+	background-image: none;
+	box-shadow: none;
+}
+div.ui-dialog a.ui-dialog-titlebar-close:hover {
+	color: white;
+  padding: 1px;
+}
+button[type="submit"].ui-button-icon-only > span.ui-icon,
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td button.ui-fileupload-cancel span.ui-icon {
+	padding: 0px;
+}
+button[type="button"].ui-autocomplete-dropdown {
+  background-image: none;
+  overflow: visible;
+  text-indent: 0px;
+}
+button[type="button"].ui-autocomplete-dropdown > span.ui-button-icon-primary  {
+  background-image: none;
+  text-indent: 0px;
+  margin-top: -4px;
+}
+button[type="button"].ui-autocomplete-dropdown {
+  font-size: 0.6rem;
+}
+button[type="button"].ui-autocomplete-dropdown:hover {
+  color: #26ade4;
+  box-shadow: none;
+}
+span.ui-autocomplete > input.ui-autocomplete-input {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+span.ui-autocomplete > input.ui-autocomplete-input ~ button.ui-autocomplete-dropdown {
+	border-left: medium none;
+	width: 5%
+}
+
+[class^="ui-messages-"][class$="-icon"] {
+  background: transparent;
+}
+[class^="ui-message-"][class$="-icon"] {
+  background: transparent;
+}
+.icon-calendar:before {
+  content: "\e600";
+}
+.icon-check:before,
+button[type="submit"] > span.ui-icon-check:before {
+  content: "\e601";
+}
+.icon-close:before,
+button[type="submit"] > span.ui-icon-closethick:before,
+button[type="submit"] > span.ui-icon-close:before,
+div.ui-fileupload.ui-widget div.ui-fileupload-content a.ui-messages-close span.ui-icon-close::before,
+div.ui-fileupload.ui-widget div.ui-fileupload-content table.ui-fileupload-files td button.ui-fileupload-cancel span.ui-icon:before {
+  content: "\e602";
+}
+.icon-dropdown:before,
+button.ui-autocomplete-dropdown[type="button"] > span.ui-icon-triangle-1-s:before {
+  content: "\e603";
+}
+.icon-error:before,
+.ui-messages-error-icon:before,
+.ui-messages-fatal-icon:before,
+button[type="submit"] > span.ui-icon-circle-close:before {	/* Si se env�a mensaje 'fatal', se usa el mismo icono de 'error'*/
+  content: "\e604";
+}
+.icon-info:before,
+.ui-messages-info-icon:before{
+	background-repeat: no-repeat;
+	background-position: 96% 1.1rem;
+	content: "\e607";
+	color:#7ed321;
+}
+.icon-info:before,
+.ui-message-info-icon:before{
+	background-repeat: no-repeat;
+	background-position: 96% 1.1rem;
+ 	content: "\e607";
+	color:#7ed321;
+}
+.icon-tips{
+	background-repeat: no-repeat;
+	background-position: 96% 1.1rem;
+}
+.icon-tips:before {
+  content: "\e605";
+}
+.icon-next:before,
+button[type="submit"] > span.ui-icon-arrowthick-1-e:before,
+button[type="button"].ui-wizard-nav-next > span.ui-icon:before {
+  content: "\e606";
+}
+.icon-ok:before {
+  content: "\e607";
+}
+.icon-prev:before,
+button[type="submit"] > span.ui-icon-arrowthick-1-w:before,
+button[type="button"].ui-wizard-nav-back > span.ui-icon:before {
+  content: "\e608";
+}
+.icon-search:before,
+button[type="submit"] > span.ui-icon-search:before {
+  content: "\e609";
+}
+.icon-save:before,
+button[type="submit"] > span.ui-icon-disk:before {
+  content: "\e60a";
+}
+.icon-warning:before,
+.ui-messages-warn-icon:before,
+span.ui-message-warn-icon + span.ui-message-warn-detail:before {
+  content: "\e60b";
+}
+span.ui-message-warn-icon + span.ui-message-warn-detail:before {
+	font-family: icomoon;
+	color: #EFD12B;
+	font-size: 1.1rem;
+	margin-right: 0.3rem;
+}
+.icon-users-home:before {
+	content: "\e60c";
+}
+.icon-key-home:before {
+	content: "\e60d";
+}
+.icon-hand-home:before {
+	content: "\e60e";
+}
+.icon-procedures-home:before {
+	content: "\e60f";
+}
+.icon-stamp-home:before {
+	content: "\e617";
+}
+.icon-id-home:before {
+	content: "\e610";
+}
+.icon-nationality-home:before {
+	content: "\e612";
+}
+.icon-passport-home:before {
+	content: "\e611";
+}
+.icon-visa-home:before {
+	content: "\e618";
+}
+.icon-help-home:before {
+	content: "\e613";
+}
+.icon-archive-home:before {
+	content: "\e614";
+}
+.icon-payments-home:before {
+	content: "\e615";
+}
+.icon-apostil_home:before {
+	content: "\e616";
+}
+.icon-menu:before {
+	content: "\e619";
+}
+.icon-user-round:before {
+	content: "\e61a";
+}
+.icon-next2:before {
+	content: "\e61b";
+}
+.icon-down:before {
+	content: "\e61c";
+}
+.icon-web-plus:before,
+button[type="submit"] > span.ui-icon-plus:before,
+div.ui-fileupload.ui-widget div.ui-fileupload-buttonbar span.ui-button span.ui-icon-plusthick:before {
+	content: "\e61d";
+}
+.icon-web-minus:before {
+	content: "\e61e";
+}
+.icon-bin:before,
+button[type="submit"] > span.ui-icon-trash:before {
+  content: "\e61f";
+}
+.icon-repeat-1:before {
+  content: "\e620";
+}
+.icon-repeat-back:before,
+button[type="submit"] > span.ui-icon-arrowreturnthick-1-w:before {
+  content: "\e621";
+}
+.icon-reject:before {
+	content: "\e622";
+}
+.icon-logout:before {
+	content: "\e623";
+}
+.icon-statistics:before {
+	content: "\e624";
+}
+.icon-edit:before {
+	content: "\e625";
+}
+.icon-print:before {
+	content: "\e626";
+}
+.icon-shopping-cart:before {
+	content: "\e627";
+}
+.icon-shopping-cart-remove:before {
+	content: "\e628";
+}
+.icon-approve:before {
+	content: "\e629";
+}
+.icon-pencil:before,
+button[type="submit"] > span.ui-icon-pencil:before {
+  content: "\e905";
+}
+.icon-upload:before,
+button[type="submit"] > span.ui-icon-upload:before {
+  content: "\e9c6";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-flag:before {
+  content: "\e9cc";
+}
+.textBlock {
+	text-align: justify; 
+	display:block;
+}
+.ancho-automatico{
+	width: auto !important;
+}
+.radioButton tr td label{
+	float:left;
+}
+.radioButton tr td input{
+	float:right;
+}
+
+.ui-datagrid-no-border .ui-datagrid-content {
+   border: none !important;
+}
+
+.mensajeCiudadanoBusq {
+	background: #f4f4f4;
+    margin-top: 0.7rem;
+    border: 1px solid #27ade4;
+	padding: 0.6rem 0.2rem;
+    border-radius: 0.6rem;
+    color: #00529b;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.3rem;
+}
+
+.imagenFormalizaNac{
+	 margin-top: 0.6rem;
+	 width:68px; 
+	 height:88px; 
+}
+
+h2:focus {
+    color: red;
+}
+
+.ui-button.ui-state-default:focus {
+    background: red !important;
+}
+
+.top-message-box a:focus {
+        text-decoration: underline;
+        color: #ffffff;
+        line-height: 1.5em;
+}
+
+.uk-h2, h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
